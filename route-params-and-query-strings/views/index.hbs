@@ -1,0 +1,34 @@
+<div class="container">
+    <h1>Params y strings</h1>
+
+    <hr>
+
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <h3>Route params (objeto <code>req.params</code>)</h3>
+            <p>Ejemplo 1: <a href="/transporte/vuelos/madrid/berlin">/transporte/vuelos/madrid/berlin</a></p>
+            <p>Ejemplo 2: <a href="/transporte/trenes/valencia/munich">/transporte/trenes/valencia/munich</a></p>
+            <p>Ejemplo 3: <a href="/usuarios/sandrabosk">/usuarios/sandrabosk</a></p>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Query strings (objeto <code>req.query</code>)</h3>
+            <p>Ejemplo 1: <a
+                    href="/tienda?clothe=pantalon&color=rojo&size=M">/tienda?clothe=pantalon&color=rojo&size=M</a></p>
+            <p>Ejemplo 2: <a
+                    href="/tienda?clothe=shorties&color=blanco&size=XL">/tienda?clothe=shorties&color=blanco&size=XL</a>
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>Formulario de búsqueda (get) - <code>req.query</code></h3>
+    <p><a href="/buscador">Acceso al formulario</a></p>
+
+    <hr>
+
+    <h3>Formulario de registro (post) - <code>req.body</code></h3>
+    <p><a href="/registro">Acceso al formulario</a></p>
+
+</div>
